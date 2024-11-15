@@ -6,6 +6,7 @@
 <b>Objective:</b> The aim of this assignment is to transition from a traditional SQL approach to using Flask-SQLAlchemy for managing a fitness center's database. This assignment will enhance your skills in ORM (Object-Relational Mapping), specifically with Flask-SQLAlchemy, to build RESTful APIs for handling database operations with `Members` and `WorkoutSessions` tables.
 
 <b><i>Task 1: Setting Up Flask with Flask-SQLAlchemy</i></b>
+
 - Initialize a new Flask project and set up a virtual environment.
 <br>
 - Install Flask, Flask-SQLAlchemy, and Flask-Marshmallow.
@@ -33,7 +34,8 @@ class WorkoutSession(db.Model):
     # Define fields...
 ```
 
-<b><i>>Task 2: Implementing CRUD Operations for Members Using ORM</i></b>
+<b><i>Task 2: Implementing CRUD Operations for Members Using ORM</i></b>
+
 - Create Flask routes to add, retrieve, update, and delete members using the ORM models.
 <br>
 - Apply HTTP methods: POST to add, GET to retrieve, PUT to update, and DELETE to delete members.
@@ -43,6 +45,7 @@ class WorkoutSession(db.Model):
 <b>Expected Outcome:</b> Functional API endpoints for managing members in the database using Flask-SQLAlchemy, with proper error handling.
 
 <b><i>Task 3: Managing Workout Sessions with ORM</i></b>
+
 - Develop routes to schedule, update, and view workout sessions using SQLAlchemy.
 <br>
 - Implement a route to retrieve all workout sessions for a specific member.
