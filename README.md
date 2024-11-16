@@ -55,5 +55,6 @@
 - <b>update_workout()</b> - Method 'PUT'
   - Updates a workout from workout table by workout ID
 <br>
+
 - <b>delete_workout()</b> - Method 'DELETE'
   - Deletes a workout by workout ID
